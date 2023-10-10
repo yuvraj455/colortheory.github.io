@@ -1,0 +1,134 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+}
+
+header {
+    background-color: #333; 
+    text-align: center;
+    padding: 20px 0;
+    opacity: 0.6;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    color: #fff; 
+}
+
+h1 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1 a:visited{
+    color: #fff;
+}
+
+h1 a:hover{
+    text-shadow: -5px 4px 8px rgba(79, 10, 10);
+    color: burlywood;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+}
+
+.header-img{
+    position: absolute;
+    top: 13px;
+    left: 10px;
+}
+audio{
+    position: absolute;
+    top: 315px;
+    left: 0px;    
+}
+
+audio:hover, audio:focus, audio:active
+{
+-webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+transform: scale(1.05);
+}
+
+.verse-1 p,
+.verse-3 p,
+.verse-5 p {
+    font-family: 'Lobster', cursive;
+    font-size: 19px;
+    line-height: 1.5;
+}
+
+.verse-2 p,
+.verse-4 p,
+.verse-6 p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 19px;
+    line-height: 1.5;
+}
+
+#para-1{
+    color: blue;
+    background-image: url("../images/verse-1.jpeg");
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+}
+
+#para-2, #para-3{
+    color: yellow;
+    background-image: url("../images/verse-2.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#para-3{
+    background-image:url("../images/verse-3.png");
+}
+
+#para-4{
+    color: red;
+    font-family: lobster;
+    font-size: 18px;
+}
+
+strong{
+    color: red;
+    font-size: 24px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+
+p::first-letter{
+    font-size: larger;
+}
+
+#chorus{
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    opacity: 0.6;
+}
+
+
